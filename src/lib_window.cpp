@@ -1,4 +1,4 @@
-#include "lib.h"
+#include "lib_window.h"
 
 #include <stdexcept>
 
@@ -24,5 +24,10 @@ namespace MathFuncs
     double MyMathFuncs::Divide(double a, double b)
     {
         return a / b;
+    }
+
+    static double Test(int a)
+    {
+        return double(a) *  8;
     }
 }

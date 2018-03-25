@@ -3,7 +3,7 @@ project(LibMinimalWindow)
 
 include_directories(include)
 add_library(minimal_window SHARED
-    src/lib.cpp
+    src/lib_window.cpp
 )
 
 add_subdirectory(test)

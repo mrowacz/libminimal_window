@@ -14,5 +14,8 @@ namespace MathFuncs
 
         // Returns a / b
         static double Divide(double a, double b);
+
+        // tet
+        static double Test(int a);
     };
 } 
